@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Sample history data (replace with actual data)
+    // Data scraped and put together by Chat GPT, few errors manually fixed
     const historyData = [
         { year: 1851, location: "Isle of Wight, England", hostTeam: "Royal Yacht Squadron", winningTeam: "America", boatType: "Schooner" },
         { year: 1870, location: "Sandy Hook, New York", hostTeam: "New York Yacht Club", winningTeam: "Magic", boatType: "Schooner" },
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Reverse the order of the historyData array
     historyData.reverse();
 
-    // Populate table with history data
+    // Populate table with history data, created by Chat GPT
     historyData.forEach((entry, index) => {
         const row = document.createElement("tr");
         const { year, location, hostTeam, winningTeam, boatType } = entry;
